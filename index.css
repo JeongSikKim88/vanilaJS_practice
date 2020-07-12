@@ -5,6 +5,7 @@ body {
 .btn {
     cursor: pointer;
 }
+
 body {
     color: #34495e;
 }
@@ -26,6 +27,7 @@ body {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
