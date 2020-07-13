@@ -22,9 +22,9 @@ function saveCoords(coordsObj) {
 
 
 function handleGeoSuccess(position) {
-    const latitude = position.coords.latitude;
-    const longitude = position.coords.longitude;
-    const coordsObj = {
+    let latitude = position.coords.latitude;
+    let longitude = position.coords.longitude;
+    let coordsObj = {
         latitude,
         longitude
     };
